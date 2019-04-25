@@ -1,0 +1,59 @@
+body {
+    /* background-image:url("./qbkls.png"); */
+}
+
+.off{
+    display:none;
+}
+
+section {
+    color: gray;
+    float: center;
+    background: #ffffff;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+img {
+    display: block;
+    float: left;
+    max-width: 25%;
+    height: auto;
+}
+
+.button { 
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+
+$container-max-widths: (
+  sm: 400px,
+  md: 720px,
+  lg: 960px
+);
